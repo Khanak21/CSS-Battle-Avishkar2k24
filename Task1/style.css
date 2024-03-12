@@ -61,7 +61,9 @@ body{
     border-radius: 2px;
     padding: 5px;
 }
-
+.contact{
+    color: #c557c8;
+}
 .msg{
     background-color: #464691;
     color:gray;

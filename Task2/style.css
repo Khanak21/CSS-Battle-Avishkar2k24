@@ -1,21 +1,19 @@
 body{
     background: rgb(255,255,255);
     background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(226,87,153,1) 50%, rgba(140,0,255,1) 100%);
-    /* height: 90vh; */
-    /* width: 90vw; */
     
 }
 .container{
     background-color: #ffffff;
     margin:7rem auto;
-    /* margin-right:5rem; */
     border-radius: 10px;
     padding: 1rem;
     color: white;
     font-size: 20px;
-    height:70%;
+    height:80%;
     width:60vw;
     position: relative;
+    box-shadow: 0px 0px 10px 0px rgb(62, 60, 60);
 }
 .bean{
    position:absolute;
@@ -23,6 +21,7 @@ body{
    translate: 510px -80px;
    border-radius: 50%;
    border:2px solid white;
+   box-shadow: 0px 0px 10px 0px rgb(62, 60, 60);
    
 }
 .name{
@@ -33,7 +32,7 @@ body{
     font-weight: bold;
     font-size: xx-large;
     margin-top:9rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 .follow{
     color:gray;
@@ -54,6 +53,8 @@ svg {
     width: 50px;
     height: 50px;
     margin:50px 20px;
+    box-shadow: 0px 0px 10px 0px rgb(170, 168, 168);
+    border-radius: 50%;
 }
 .icons{
     display: flex;
@@ -63,6 +64,9 @@ svg {
 .buttons{
     display: flex;
     justify-content: center;
+    margin-bottom: 3rem;
+    font-family:Impact;
+    
 }
 
 .msg{
@@ -70,7 +74,6 @@ svg {
     background-color: #c89bff;
     padding: 10px 40px;
     margin: 0px 60px;
-    font-weight: bold;
     font-size: x-large;
     
 }
