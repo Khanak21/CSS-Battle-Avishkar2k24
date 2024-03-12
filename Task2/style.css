@@ -1,0 +1,88 @@
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(226,87,153,1) 50%, rgba(140,0,255,1) 100%);
+    /* height: 90vh; */
+    /* width: 90vw; */
+    
+}
+.container{
+    background-color: #ffffff;
+    margin:7rem auto;
+    /* margin-right:5rem; */
+    border-radius: 10px;
+    padding: 1rem;
+    color: white;
+    font-size: 20px;
+    height:70%;
+    width:60vw;
+    position: relative;
+}
+.bean{
+   position:absolute;
+   z-index: 2;
+   translate: 510px -80px;
+   border-radius: 50%;
+   border:2px solid white;
+   
+}
+.name{
+    width:100%;
+    color:#c557c8;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top:9rem;
+    margin-bottom: 1rem;
+}
+.follow{
+    color:gray;
+    display: flex;
+    justify-content: space-around;
+    /* font-size: large; */
+}
+.subfollow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.num{
+    display: flex;
+    justify-content: center;
+}
+svg {
+    width: 50px;
+    height: 50px;
+    margin:50px 20px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.msg{
+    border-radius: 30px;
+    background-color: #c89bff;
+    padding: 10px 40px;
+    margin: 0px 60px;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+.fol{
+    border-radius: 30px;
+    background-color: #eb7d87;
+    padding: 10px 40px;
+    margin: 0px 60px;
+    font-weight: bold;
+    font-size: x-large;
+
+    
+
+}
