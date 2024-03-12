@@ -4,6 +4,8 @@ body{
     background-size:cover;
     height: 93vh;
     width: 90vw;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .container{
@@ -44,6 +46,7 @@ body{
 .info{
     margin-left:2rem;
     padding-top: 10px;
+    font-size:medium;
 }
 .form{
     margin-left:2rem;
